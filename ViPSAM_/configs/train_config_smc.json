@@ -1,0 +1,12 @@
+{
+  "ct_mr_root": "/data2/2025_san/data/smc_ct/image",
+  "mask_root": "/data2/2025_san/data/smc_ct/Mask",
+  "output_dir": "/data2/2025_san/ViPSAM_3D_copy/results/train/smc",
+  "experiment_name": "ViPSAM3D_test",
+  "resume_path": "",
+  "gpu_device": 0,
+  "num_workers_train": 0,
+  "num_workers_val": 0,
+  "sam_ckpt": "/data2/2025_san/ViPSAM_3D/work_dir/SAM/sam_vit_b_01ec64.pth",
+  "debug_dataset": true
+}

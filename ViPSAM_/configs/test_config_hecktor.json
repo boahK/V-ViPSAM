@@ -1,0 +1,24 @@
+{
+  "hecktor_resampled_root": "/data2/2025_san/data/HECKTOR2025_Task1_resampled_1mm",
+  "hecktor_test_csv": "/data2/2025_san/data/HECKTOR2025_splits_random/test.csv",
+  "valid_z_dir": "/data2/2025_san/data/HECKTOR2025_splits_random/valid_z",
+  "valid_slices_dir": "/data2/2025_san/data/HECKTOR2025_Task1_resampled_1mm/valid_slices",
+
+  "checkpoint_path": "/data2/2025_san/ViPSAM_3D/output/train/hecktor/ViPSAM3D_HECKTOR_2d/ckpt/train_best.pth",
+  "model_name": "ViPSAM3D_hecktor_2D_trainbest",
+
+  "output_dir": "/data2/2025_san/ViPSAM_3D/output/test",
+  "results_dir": "/data2/2025_san/ViPSAM_3D/output/test/test_hecktor",
+  "gpu_device": 0,
+  "num_workers_val": 0,
+
+  "sam_ckpt": "/data2/2025_san/ViPSAM_3D/work_dir/SAM/sam_vit_b_01ec64.pth",
+  "vis_max_patient": 1,
+  
+  "image_size": 512,
+  "num_frames": 1,
+  "overlap": 0,
+  "batch_size": 1,
+  "prompt_type": "box",
+  "dataset_name": "hecktor"
+}

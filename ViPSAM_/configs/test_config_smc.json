@@ -1,0 +1,12 @@
+{
+  "checkpoint_path": "/data2/2025_san/ViPSAM_3D/output/train/smc/ViPSAM3D_T8/ckpt/epoch_048.pth",
+  "test_ct_mr_root": "/data2/2025_san/data/smc_ct/test/image",
+  "test_mask_root": "/data2/2025_san/data/smc_ct/test/Mask",
+  "results_dir": "/data2/2025_san/ViPSAM_3D/output/test/smc",
+  "model_name": "3DViPSAM_smc_25811_epoch48",
+  "batch_size": 1,
+  "num_workers": 2,
+  "gpu_device": 0,
+  "vis_patient_keys": null,
+  "vis_max_patients": 0
+}

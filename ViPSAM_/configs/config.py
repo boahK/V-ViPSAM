@@ -1,37 +1,34 @@
 from dataclasses import dataclass, fields
-from typing import Optional
 
 @dataclass
 class Cfg:
-    sam_ckpt: str
-    img_size: int = 1024
+    image_size: int = 512
     embed_dim: int = 768
     out_chans: int = 256
     fusion_heads: int = 8
 
     lr: float = 1e-4
     weight_decay: float = 1e-4
-    epochs: int = 30
-    batch_size: int = 4
+    min_lr: float = 1e-6       
+    scheduler: str = "cosine"  
+    warmup_epochs: int = 5 
+    epochs: int = 60
+    batch_size: int = 1
     val_split: float = 0.1
-    use_bce: bool = False
+    use_bce: bool = True
     prompt_type: str = "box"
     seed: int = 42
 
-    use_sampler: bool = False
-    lesion_boost: float = 1.0
-    sampler_epoch_len: int = 0
+    # Mid-fusie settings
+    use_mid_fusion: bool = True
+    fuse_layers: tuple = (2,5,8,11)
 
-    use_lora: bool = False # True: use LoRA, False: use full model
-    lora_rank: int = 8
-    lora_alpha: int = 8
+    num_frames: int = 4
+    overlap: int = 1
 
-    output_dir: Optional[str] = None
-    resume_path: Optional[str] = None
-    experiment_name: str = "ViPSAM"
-    ct_mr_root: str = ""
-    mask_root: str = ""
+    val_freq: int = 5
 
+    sam_ckpt: str = ""
 
 
 def cfg_from_dict(d: dict) -> Cfg:

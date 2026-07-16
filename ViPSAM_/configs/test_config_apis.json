@@ -1,0 +1,12 @@
+{
+  "dataset_name": "apis",
+  "apis_root": "/data2/medvil_users/2025_san/data/APIS",
+  "checkpoint_path": "/data2/medvil_users/2025_san/ViPSAM_3D/output_apis/ViPSAM3D_APIS_0513/ckpt/epoch_036.pth",
+  "results_dir": "/data2/medvil_users/2025_san/ViPSAM_3D/output_apis/result",
+  "model_name": "apis_best_epoch36",
+  "batch_size": 1,
+  "num_workers": 4,
+  "gpu_device": 0,
+  "vis_patient_keys":null,
+  "vis_max_patients": 3
+}

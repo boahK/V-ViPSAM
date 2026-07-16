@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# 모델 가중치 / 체크포인트
+*.pth
+*.ckpt
+*.pt
+checkpoints/
+weights/
+
+# 데이터셋
+data/
+datasets/
+
+# 결과물 / 로그
+results/
+logs/
+wandb/
+runs/
+
+# 에디터
+.vscode/
+.idea/

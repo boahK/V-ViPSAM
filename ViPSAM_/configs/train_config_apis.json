@@ -1,0 +1,11 @@
+{
+  "dataset_name": "apis",
+  "apis_root": "/data2/medvil_users/2025_san/data/APIS",
+  "output_dir": "/data2/medvil_users/2025_san/ViPSAM_3D/output_apis",
+  "experiment_name": "ViPSAM3D_APIS_0513",
+  "resume_path": "",
+  "gpu_device": 0,
+  "num_workers_train": 4,
+  "num_workers_val": 2,
+  "sam_ckpt": "/data2/medvil_users/2025_san/ViPSAM_3D/work_dir/SAM/sam_vit_b_01ec64.pth"
+}

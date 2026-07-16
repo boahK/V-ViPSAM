@@ -1,6 +1,5 @@
-# ViPSAM : Visaul Prompting Medical Image Segmentation Using Segment Anything Model
-
-The official source code of "ViPSAM : Visaul Prompting Medical Image Segmentation Using Segment Anything Model".
+# V-ViPSAM : ~
+The official source code of "V-ViPSAM : ~".
 
 ## Implementation
 
