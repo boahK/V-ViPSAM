@@ -1,5 +1,7 @@
 # V-ViPSAM : Visual Prompting for Volumetric Medical Image Segmentation Using Segment Anything Model
 
+![Framework](./framework.png)
+
 The official source code of "V-ViPSAM : isual Prompting for Volumetric Medical Image Segmentation Using Segment Anything Model".
 
 ## Implementation
@@ -10,10 +12,6 @@ A Pytorch implementation of deep-learning-based model.
   - OS : Ubuntu / Windows
   - Python 3.10.18
   - PyTorch 2.5.1
-
-## Dataset
-
-- ~
 
 ## Training
 
